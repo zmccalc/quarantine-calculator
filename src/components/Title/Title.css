@@ -1,0 +1,15 @@
+.title {
+    background-color: white;
+}
+.titleH1 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.titleH2 {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
