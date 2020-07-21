@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/zmccalc/quarantine-calculator/static/css/main.760c68a3.chunk.css",
+    "main.js": "/zmccalc/quarantine-calculator/static/js/main.b31eb7fc.chunk.js",
+    "main.js.map": "/zmccalc/quarantine-calculator/static/js/main.b31eb7fc.chunk.js.map",
+    "runtime-main.js": "/zmccalc/quarantine-calculator/static/js/runtime-main.b38608b0.js",
+    "runtime-main.js.map": "/zmccalc/quarantine-calculator/static/js/runtime-main.b38608b0.js.map",
+    "static/js/2.7bd314b6.chunk.js": "/zmccalc/quarantine-calculator/static/js/2.7bd314b6.chunk.js",
+    "static/js/2.7bd314b6.chunk.js.map": "/zmccalc/quarantine-calculator/static/js/2.7bd314b6.chunk.js.map",
+    "index.html": "/zmccalc/quarantine-calculator/index.html",
+    "precache-manifest.56d3b1a6d3be4e27123cdaad6ae26154.js": "/zmccalc/quarantine-calculator/precache-manifest.56d3b1a6d3be4e27123cdaad6ae26154.js",
+    "service-worker.js": "/zmccalc/quarantine-calculator/service-worker.js",
+    "static/css/main.760c68a3.chunk.css.map": "/zmccalc/quarantine-calculator/static/css/main.760c68a3.chunk.css.map",
+    "static/js/2.7bd314b6.chunk.js.LICENSE.txt": "/zmccalc/quarantine-calculator/static/js/2.7bd314b6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b38608b0.js",
+    "static/js/2.7bd314b6.chunk.js",
+    "static/css/main.760c68a3.chunk.css",
+    "static/js/main.b31eb7fc.chunk.js"
+  ]
+}
