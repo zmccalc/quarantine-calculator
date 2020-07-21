@@ -17,6 +17,11 @@ class Hero extends Component {
     statePopulation: 0
   }
 
+  handleNameChange = (name) => {
+    this.setState({collegeName: name})
+    this.props.handleNameChange(name)
+  }
+
   handleSizeChange = (event) => {
     this.setState({size: parseInt(event.target.value, 10) + 1})
   }
@@ -15437,6 +15442,7 @@ class Hero extends Component {
         //Calculation
         var chance = (((positiveCases * 10) / statePopulation) * SF * CF * 100) + PF
         chance = chance.toFixed(2)
+        chance = Math.min(chance, 100)
         console.log(`chance = (((${positiveCases} * 10) / ${statePopulation}) * ${SF} * ${CF} * 100) + ${PF}`)
         return chance
       }
@@ -15478,11 +15484,13 @@ class Hero extends Component {
     } else if (plan === "Proposing a hybrid model") {
       return 10
     } else if (plan === "Planning for online") {
-      return 50
+      return 100
     } else if (plan === "Considering a range of scenarios") {
       return 20
     } else if (plan === "Waiting to decide") {
       return 20
+    } else {
+      return 0
     }
   }
 
@@ -16619,7 +16627,7 @@ class Hero extends Component {
               id="combo-box-demo"
               options={collegeNames}
               renderInput={(params) => <TextField {...params} label="Enter college name" variant="outlined" />}
-              onChange={(event, value) => this.setState({collegeName: value})}
+              onChange={(event, value) => this.handleNameChange(value)}
             />
             <TextField id="outlined-basic" label="Size of school" variant="outlined" value={this.state.email} onChange={this.handleSizeChange}/>
             <Button variant="contained" className="welcomeButton" onClick={this.handleButtonClicked}>Calculate</Button>

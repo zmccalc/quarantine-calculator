@@ -1,15 +1,20 @@
 .title {
     background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .titleH1 {
     margin-top: 20px;
     margin-bottom: 0px;
-    font-size: 45px;
+    font-size: 50px;
     text-align: center;
+    font-weight: bold;
 }
 
 .titleH2 {
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
+    font-weight: normal;
 }
