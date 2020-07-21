@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/zmccalc/quarantine-calculator/static/css/main.760c68a3.chunk.css",
-    "main.js": "/zmccalc/quarantine-calculator/static/js/main.b31eb7fc.chunk.js",
-    "main.js.map": "/zmccalc/quarantine-calculator/static/js/main.b31eb7fc.chunk.js.map",
-    "runtime-main.js": "/zmccalc/quarantine-calculator/static/js/runtime-main.b38608b0.js",
-    "runtime-main.js.map": "/zmccalc/quarantine-calculator/static/js/runtime-main.b38608b0.js.map",
-    "static/js/2.7bd314b6.chunk.js": "/zmccalc/quarantine-calculator/static/js/2.7bd314b6.chunk.js",
-    "static/js/2.7bd314b6.chunk.js.map": "/zmccalc/quarantine-calculator/static/js/2.7bd314b6.chunk.js.map",
-    "index.html": "/zmccalc/quarantine-calculator/index.html",
-    "precache-manifest.56d3b1a6d3be4e27123cdaad6ae26154.js": "/zmccalc/quarantine-calculator/precache-manifest.56d3b1a6d3be4e27123cdaad6ae26154.js",
-    "service-worker.js": "/zmccalc/quarantine-calculator/service-worker.js",
-    "static/css/main.760c68a3.chunk.css.map": "/zmccalc/quarantine-calculator/static/css/main.760c68a3.chunk.css.map",
-    "static/js/2.7bd314b6.chunk.js.LICENSE.txt": "/zmccalc/quarantine-calculator/static/js/2.7bd314b6.chunk.js.LICENSE.txt"
+    "main.css": "/quarantine-calculator/static/css/main.760c68a3.chunk.css",
+    "main.js": "/quarantine-calculator/static/js/main.743b98aa.chunk.js",
+    "main.js.map": "/quarantine-calculator/static/js/main.743b98aa.chunk.js.map",
+    "runtime-main.js": "/quarantine-calculator/static/js/runtime-main.aaf57ce4.js",
+    "runtime-main.js.map": "/quarantine-calculator/static/js/runtime-main.aaf57ce4.js.map",
+    "static/js/2.7bd314b6.chunk.js": "/quarantine-calculator/static/js/2.7bd314b6.chunk.js",
+    "static/js/2.7bd314b6.chunk.js.map": "/quarantine-calculator/static/js/2.7bd314b6.chunk.js.map",
+    "index.html": "/quarantine-calculator/index.html",
+    "precache-manifest.764e3ed9336cd24a424803e20227131f.js": "/quarantine-calculator/precache-manifest.764e3ed9336cd24a424803e20227131f.js",
+    "service-worker.js": "/quarantine-calculator/service-worker.js",
+    "static/css/main.760c68a3.chunk.css.map": "/quarantine-calculator/static/css/main.760c68a3.chunk.css.map",
+    "static/js/2.7bd314b6.chunk.js.LICENSE.txt": "/quarantine-calculator/static/js/2.7bd314b6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b38608b0.js",
+    "static/js/runtime-main.aaf57ce4.js",
     "static/js/2.7bd314b6.chunk.js",
     "static/css/main.760c68a3.chunk.css",
-    "static/js/main.b31eb7fc.chunk.js"
+    "static/js/main.743b98aa.chunk.js"
   ]
 }
