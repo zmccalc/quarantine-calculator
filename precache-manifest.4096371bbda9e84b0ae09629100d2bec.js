@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f378bb21a7210362696497e434a9eb05",
+    "revision": "56125464b6bacc057e55cc73344d96e0",
     "url": "/quarantine-calculator/index.html"
   },
   {
-    "revision": "aba45ec6d872c40fc46d",
+    "revision": "41e4675645168044b62d",
     "url": "/quarantine-calculator/static/css/main.760c68a3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/quarantine-calculator/static/js/2.7bd314b6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aba45ec6d872c40fc46d",
-    "url": "/quarantine-calculator/static/js/main.743b98aa.chunk.js"
+    "revision": "41e4675645168044b62d",
+    "url": "/quarantine-calculator/static/js/main.55eb67d1.chunk.js"
   },
   {
     "revision": "146f8ace2eb01683828f",

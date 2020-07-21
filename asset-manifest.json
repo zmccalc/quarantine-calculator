@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/quarantine-calculator/static/css/main.760c68a3.chunk.css",
-    "main.js": "/quarantine-calculator/static/js/main.743b98aa.chunk.js",
-    "main.js.map": "/quarantine-calculator/static/js/main.743b98aa.chunk.js.map",
+    "main.js": "/quarantine-calculator/static/js/main.55eb67d1.chunk.js",
+    "main.js.map": "/quarantine-calculator/static/js/main.55eb67d1.chunk.js.map",
     "runtime-main.js": "/quarantine-calculator/static/js/runtime-main.aaf57ce4.js",
     "runtime-main.js.map": "/quarantine-calculator/static/js/runtime-main.aaf57ce4.js.map",
     "static/js/2.7bd314b6.chunk.js": "/quarantine-calculator/static/js/2.7bd314b6.chunk.js",
     "static/js/2.7bd314b6.chunk.js.map": "/quarantine-calculator/static/js/2.7bd314b6.chunk.js.map",
     "index.html": "/quarantine-calculator/index.html",
-    "precache-manifest.764e3ed9336cd24a424803e20227131f.js": "/quarantine-calculator/precache-manifest.764e3ed9336cd24a424803e20227131f.js",
+    "precache-manifest.4096371bbda9e84b0ae09629100d2bec.js": "/quarantine-calculator/precache-manifest.4096371bbda9e84b0ae09629100d2bec.js",
     "service-worker.js": "/quarantine-calculator/service-worker.js",
     "static/css/main.760c68a3.chunk.css.map": "/quarantine-calculator/static/css/main.760c68a3.chunk.css.map",
     "static/js/2.7bd314b6.chunk.js.LICENSE.txt": "/quarantine-calculator/static/js/2.7bd314b6.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.aaf57ce4.js",
     "static/js/2.7bd314b6.chunk.js",
     "static/css/main.760c68a3.chunk.css",
-    "static/js/main.743b98aa.chunk.js"
+    "static/js/main.55eb67d1.chunk.js"
   ]
 }
