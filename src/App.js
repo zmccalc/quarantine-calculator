@@ -4,6 +4,20 @@ import Title from './components/Title/Title.js';
 import Hero from './components/Hero/Hero.js';
 import Results from './components/Results/Results.js';
 import Disclaimer from './components/Disclaimer/Disclaimer.js';
+import firebase from 'firebase/app';
+import 'firebase/database'; 
+
+var config = {
+  apiKey: "AIzaSyByY9ikyCman4k5u_Okn8qWTdZcWt7a0wM",
+  authDomain: "zoom-class-calculator.firebaseapp.com",
+  databaseURL: "https://zoom-class-calculator.firebaseio.com",
+  projectId: "zoom-class-calculator",
+  storageBucket: "zoom-class-calculator.appspot.com",
+  messagingSenderId: "715324641890",
+  appId: "1:715324641890:web:5374a1d26064b3bdb8773b",
+  measurementId: "G-SWPH29BT8G"
+};
+firebase.initializeApp(config);
 
 class App extends Component {
 

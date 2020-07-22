@@ -16,5 +16,28 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyByY9ikyCman4k5u_Okn8qWTdZcWt7a0wM",
+        authDomain: "zoom-class-calculator.firebaseapp.com",
+        databaseURL: "https://zoom-class-calculator.firebaseio.com",
+        projectId: "zoom-class-calculator",
+        storageBucket: "zoom-class-calculator.appspot.com",
+        messagingSenderId: "715324641890",
+        appId: "1:715324641890:web:5374a1d26064b3bdb8773b",
+        measurementId: "G-SWPH29BT8G"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>

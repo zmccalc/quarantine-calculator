@@ -4,9 +4,10 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Modal from '../Modal/Modal.js';
+import firebase from 'firebase/app';
+import 'firebase/database'; 
 
 class Hero extends Component {
-
 
   state = {
     collegeName: "",
@@ -15443,9 +15444,26 @@ class Hero extends Component {
         var chance = (((positiveCases * 10) / statePopulation) * SF * CF * 100) + PF
         chance = chance.toFixed(2)
         chance = Math.min(chance, 100)
+        this.recordSession(this.state.collegeName, this.state.size, chance)
         console.log(`chance = (((${positiveCases} * 10) / ${statePopulation}) * ${SF} * ${CF} * 100) + ${PF}`)
         return chance
       }
+    }
+  }
+
+  recordSession = (name, size, chance) => {
+    if (this.isMeTesting(size)) {
+      return
+    } else {
+      firebase.database().ref('/queries').once('value').then(function(snapshot) {
+        var queriesCount = (snapshot.val() && snapshot.numChildren()) || 0;
+        console.log(`queriesCount: ${queriesCount}`)
+        firebase.database().ref(`queries/query${queriesCount}`).set({
+          collegeName: name,
+          collegeSize: size,
+          result: chance
+        });
+      });
     }
   }
 
@@ -15457,13 +15475,17 @@ class Hero extends Component {
   }
 
   calculateSF = () => {
-    if (this.state.size < 2000) {
+    var collegeSize = this.state.size
+    if (this.isMeTesting(collegeSize)) {
+      collegeSize = this.returnLegitSize(collegeSize)
+    }
+    if (collegeSize < 2000) {
       return 0.4
-    } else if (this.state.size < 8000) {
+    } else if (collegeSize < 8000) {
       return 0.6
-    } else if (this.state.size < 15000) {
+    } else if (collegeSize < 15000) {
       return 1
-    } else if (this.state.size < 30000) {
+    } else if (collegeSize < 30000) {
       return 1.5
     } else {
       return 2
@@ -15493,6 +15515,23 @@ class Hero extends Component {
       return 0
     }
   }
+
+  isMeTesting = (size) => {
+    let sizeStr = `${size}`
+    if (sizeStr.startsWith("999") === true) {
+      return true
+    } else {
+      return false
+    }
+ }
+
+ returnLegitSize = (size) => {
+  var sizeStr = `${size}`
+  if (sizeStr.startsWith("999") === true) {
+    sizeStr = sizeStr.substring(3)
+    return parseInt(sizeStr)
+  } 
+ }
 
   //Modal Functions
   handleOpen = (displayText) => {
