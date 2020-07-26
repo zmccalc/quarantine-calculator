@@ -15445,7 +15445,7 @@ class Hero extends Component {
         chance = chance.toFixed(2)
         chance = Math.min(chance, 100)
         this.recordSession(this.state.collegeName, this.state.size, chance)
-        console.log(`chance = (((${positiveCases} * 10) / ${statePopulation}) * ${SF} * ${CF} * 100) + ${PF}`)
+        //console.log(`chance = (((${positiveCases} * 10) / ${statePopulation}) * ${SF} * ${CF} * 100) + ${PF}`)
         return chance
       }
     }
